@@ -15,3 +15,8 @@ msgstr ""
 "Language-Name: Português do Brasil\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
+
+#. Default: "Sitemap"
+#: components/SiteMapFooter/SiteMapFooter
+msgid "Sitemap"
+msgstr ""
