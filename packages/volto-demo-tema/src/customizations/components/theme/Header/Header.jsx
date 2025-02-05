@@ -8,7 +8,6 @@ import config from '@plone/volto/registry';
 import cx from 'classnames';
 import IntranetSearchWidget from '@kitconcept/volto-light-theme/components//SearchWidget/IntranetSearchWidget';
 import SimboloRS from '../../../../components/SimboloRS/SimboloRS';
-import { SearchBar } from '../../../../components/SearchBar/SearchBar';
 
 import {
   Anontools,
@@ -19,6 +18,7 @@ import {
 import BarraEstado from '../../../../components/BarraEstado/BarraEstado';
 import BarraAcessibilidade from '../../../../components/BarraAcessibilidade/BarraAcessibilidade';
 import SecretariaNome from '../../../../components/SecretariaNome/SecretariaNome';
+import SearchWidget from '../../../../components/SearchWidget/SearchWidget';
 
 const messages = defineMessages({
   siteLabel: {
@@ -68,7 +68,7 @@ const InternetHeader = ({
           <MobileNavigation pathname={pathname} />
           <div className="search-wrapper navigation-desktop">
             <div className="search">
-              <SearchBar />
+              <SearchWidget />
             </div>
           </div>
         </div>
