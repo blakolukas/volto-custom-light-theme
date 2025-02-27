@@ -1,0 +1,116 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+/* Dots */
+.slick-dots {
+    position: absolute;
+    bottom: 40px; /* Adjust this value to position it correctly */
+    z-index: 10; /* Ensure it appears above the slick-list */
+}
+
+.slick-dots li {
+    margin: 0 20px;
+}
+
+.slick-dots li button {
+    &:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900; // Ensures solid style
+        content: "\f111"; // Unicode for "fa-circle"
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        /* UI Properties */
+        color: #F8F8F8;
+        opacity: 1;
+    }
+}
+
+.slick-dots li.slick-active button {
+    &:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f111"; 
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        color: #FFCC02;
+        opacity: 1;
+    }
+}
+
+
+/* @kitconcept/volto-carousel-block */
+/* Hides text */
+.grid-teaser-item > a > h3 {
+    display: none;   
+}
+
+.grid-teaser-item > a > p {
+    display: none;   
+}
+
+/* Arrows position */
+.block.carousel .slick-prev::before {
+    content: '\f104';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 24px; /* Adjust size as needed */
+    color: white; /* Set icon color */
+    opacity: 1;
+}
+  
+.block.carousel .slick-next::before {
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+    opacity: 1;
+}
+
+.block.carousel .slick-prev {
+    position: absolute;
+    top: 50%; 
+    left: 40px; 
+    transform: translateY(-50%); 
+    z-index: 10;
+    color: white;
+}
+
+.block.carousel .slick-next {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: white;
+}
+ 
+/* @eeacms/volto-block-image-cards */
+/* Hides text */
+.slide-body {
+    display: none;
+}
+
+/* Arrows */
+.slick-arrow svg {
+    display: none;
+}
+
+.slider-arrow .left-arrow, .slider-arrow .right-arrow {
+    position: absolute;
+}
+
+.slider-arrow {
+    top: 50%;
+    width: 100%;
+}
+
+.slider-arrow .left-arrow {
+    left: 40px;
+}
+
+.slider-arrow .right-arrow {
+    left: unset;
+    right: 40px;
+}
