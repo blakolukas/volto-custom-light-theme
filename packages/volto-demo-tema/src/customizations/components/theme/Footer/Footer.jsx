@@ -4,14 +4,14 @@ import SeloGoverno from '../../../../components/SeloGoverno/SeloGoverno';
 import SiteMapFooter from '../../../../components/SiteMapFooter/SiteMapFooter';
 import RedesSociais from '../../../../components/RedesSociais/RedesSociais';
 
-const Footer = ({ intl }) => {
+const Footer = () => {
   return (
-    <div id="footer" stackable vertical padded inverted color="grey">
+    <div id="footer" color="grey">
       <div className="footer-container">
         <div className="footer-site-nome">
           <SeloGoverno />
         </div>
-        <SiteMapFooter location="/" />
+        <SiteMapFooter location={{pathname: "/"}} />
         <RedesSociais />
       </div>
       <div className="footer-logo">

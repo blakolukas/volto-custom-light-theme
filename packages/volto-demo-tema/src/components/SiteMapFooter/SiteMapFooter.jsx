@@ -74,7 +74,7 @@ function Sitemap(props) {
     config.getComponent({ name: 'Container' }).component || SemanticContainer;
 
   return (
-    <div id="page-sitemap">
+    <div>
       <Helmet title={props.intl.formatMessage(messages.Sitemap)} />
       <Container className="view-wrapper">
         {props.items && renderItems(props.items, 2)}

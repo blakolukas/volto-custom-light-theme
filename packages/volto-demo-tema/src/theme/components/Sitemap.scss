@@ -1,0 +1,15 @@
+#page-sitemap{
+    max-width: var(--default-container-width);
+    margin-right: auto;
+    margin-left: auto;
+    color: $green-matriz-link-activated;
+}
+
+.section-sitemap #page-sitemap ul {
+    list-style-type: square;
+}
+
+.content-area p > a, .content-area li > a, .content-area .breadcrumb a, .breadcrumbs p > a, .breadcrumbs li > a, .breadcrumbs .breadcrumb a {
+    color: $green-matriz-link-activated;
+    text-decoration: none;
+}
