@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-site-nome">
           <SeloGoverno />
         </div>
-        <SiteMapFooter location={{pathname: "/"}} />
+        <SiteMapFooter location={{ pathname: '/' }} />
         <RedesSociais />
       </div>
       <div className="footer-logo">

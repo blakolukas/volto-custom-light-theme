@@ -119,34 +119,32 @@ class SearchWidget extends Component {
    */
   render() {
     return (
-            <form action="/search" onSubmit={this.onSubmit}>
-              <div className="s-wrapper">
-                <input
-                  className='s-input'
-                  aria-label={this.props.intl.formatMessage(messages.search)}
-                  onChange={(e) => this.onChangeText(e)}
-                  onKeyDown={(e) => this.handleEscapeKeyDown(e)}
-                  name="SearchableText"
-                  value={this.state.text}
-                  autoComplete="off"
-                  placeholder={this.props.intl.formatMessage(
-                    messages.searchSite,
-                  )}
-                  title={this.props.intl.formatMessage(messages.search)}
-                  tabIndex={this.state.active ? '0' : '-1'} // Conditional tabIndex
-                  ref={(input) => {
-                    this.refInput = input;
-                  }}
-                />
-                <button
-                  id='s-logo'
-                  aria-label={this.props.intl.formatMessage(messages.search)}
-                  tabIndex={this.state.active ? '0' : '-1'}
-                >
-                  <Icon name={zoomSVG} size="32px" />
-                </button>
-              </div>
-            </form>
+      <form action="/search" onSubmit={this.onSubmit}>
+        <div className="s-wrapper">
+          <input
+            className="s-input"
+            aria-label={this.props.intl.formatMessage(messages.search)}
+            onChange={(e) => this.onChangeText(e)}
+            onKeyDown={(e) => this.handleEscapeKeyDown(e)}
+            name="SearchableText"
+            value={this.state.text}
+            autoComplete="off"
+            placeholder={this.props.intl.formatMessage(messages.searchSite)}
+            title={this.props.intl.formatMessage(messages.search)}
+            tabIndex={this.state.active ? '0' : '-1'} // Conditional tabIndex
+            ref={(input) => {
+              this.refInput = input;
+            }}
+          />
+          <button
+            id="s-logo"
+            aria-label={this.props.intl.formatMessage(messages.search)}
+            tabIndex={this.state.active ? '0' : '-1'}
+          >
+            <Icon name={zoomSVG} size="32px" />
+          </button>
+        </div>
+      </form>
     );
   }
 }

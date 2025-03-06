@@ -62,7 +62,9 @@ const InternetHeader = ({
         <div className="logo-nav-wrapper">
           <div className="simbolo">
             <SimboloRS />
-            <a className="header-titulo" href='/'>{siteTitle}</a>
+            <a className="header-titulo" href="/">
+              {siteTitle}
+            </a>
           </div>
           <Navigation pathname={pathname} />
           <MobileNavigation pathname={pathname} />
@@ -114,7 +116,7 @@ const IntranetHeader = ({
               <IntranetSearchWidget />
             </div>
           </div>
-         
+
           <MobileNavigation pathname={pathname} />
         </div>
       </div>

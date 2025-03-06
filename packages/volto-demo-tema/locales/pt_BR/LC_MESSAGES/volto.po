@@ -16,6 +16,16 @@ msgstr ""
 "Preferred-Encodings: utf-8\n"
 "Domain: volto\n"
 
+#. Default: "Search"
+#: components/SearchWidget/SearchWidget
+msgid "Search"
+msgstr ""
+
+#. Default: "Search Site"
+#: components/SearchWidget/SearchWidget
+msgid "Search Site"
+msgstr ""
+
 #. Default: "Sitemap"
 #: components/SiteMapFooter/SiteMapFooter
 msgid "Sitemap"
