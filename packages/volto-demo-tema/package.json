@@ -27,7 +27,8 @@
     "release-alpha": "release-it --preRelease=alpha"
   },
   "dependencies": {
-    "@kitconcept/volto-light-theme": "^6.0.0-alpha.9",
+    "@kitconcept/volto-light-theme": "6.0.0-alpha.6",
+    "@fortawesome/fontawesome-free": "*",
     "@fortawesome/react-fontawesome": "*",
     "@fortawesome/free-solid-svg-icons": "*"
   },
