@@ -57,7 +57,7 @@ function Sitemap(props) {
                 <ul>
                   {item.items &&
                     item.items.map((innerItem) => (
-                      <li key={item.title}>
+                      <li key={innerItem.title}>
                         <Link to={innerItem.url}>{innerItem.title}</Link>
                       </li>
                     ))}
