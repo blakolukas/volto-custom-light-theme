@@ -7,7 +7,7 @@ on:
 
 env:
   NODE_VERSION: 20.x
-  ADDON_NAME: volto-demo-tema
+  ADDON_NAME: volto-custom-light-theme
 
 jobs:
   build:

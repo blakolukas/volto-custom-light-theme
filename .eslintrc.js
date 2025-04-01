@@ -29,8 +29,8 @@ module.exports = {
           ['@plone/volto-slate', `${coreLocation}/packages/volto-slate/src`],
           ['@plone/registry', `${coreLocation}/packages/registry/src`],
           [
-            'volto-demo-tema',
-            './packages/volto-demo-tema/src',
+            'volto-custom-light-theme',
+            './packages/volto-custom-light-theme/src',
           ],
           ...addonAliases,
         ],

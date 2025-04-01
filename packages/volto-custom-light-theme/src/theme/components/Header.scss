@@ -32,8 +32,8 @@
 }
 
 .header-titulo {
-  color: black;
   margin-left: 30px;
+  color: black;
   font-size: 24px;
   font-weight: 375;
   text-align: left;
@@ -48,21 +48,23 @@
 }
 
 @media (min-width: 768px) {
-  .logo-nav-wrapper, .tools-wrapper {
+  .logo-nav-wrapper,
+  .tools-wrapper {
     width: 750px;
     align-self: center;
   }
 }
 @media (min-width: 992px) {
-  .logo-nav-wrapper ,.tools-wrapper {
+  .logo-nav-wrapper,
+  .tools-wrapper {
     width: 970px;
     align-self: center;
   }
 }
 @media (min-width: 1200px) {
-  .logo-nav-wrapper, .tools-wrapper {
+  .logo-nav-wrapper,
+  .tools-wrapper {
     width: 1170px;
     align-self: center;
   }
 }
-

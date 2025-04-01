@@ -1,11 +1,11 @@
-# Tema Demonstração (volto-demo-tema)
+# Tema Demonstração (volto-custom-light-theme)
 
 Tema Demonstração
 
-[![npm](https://img.shields.io/npm/v/volto-demo-tema)](https://www.npmjs.com/package/volto-demo-tema)
-[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://procergs.github.io/volto-demo-tema/)
-[![Code analysis checks](https://github.com/procergs/volto-demo-tema/actions/workflows/code.yml/badge.svg)](https://github.com/procergs/volto-demo-tema/actions/workflows/code.yml)
-[![Unit tests](https://github.com/procergs/volto-demo-tema/actions/workflows/unit.yml/badge.svg)](https://github.com/procergs/volto-demo-tema/actions/workflows/unit.yml)
+[![npm](https://img.shields.io/npm/v/volto-custom-light-theme)](https://www.npmjs.com/package/volto-custom-light-theme)
+[![](https://img.shields.io/badge/-Storybook-ff4785?logo=Storybook&logoColor=white&style=flat-square)](https://procergs.github.io/volto-custom-light-theme/)
+[![Code analysis checks](https://github.com/procergs/volto-custom-light-theme/actions/workflows/code.yml/badge.svg)](https://github.com/procergs/volto-custom-light-theme/actions/workflows/code.yml)
+[![Unit tests](https://github.com/procergs/volto-custom-light-theme/actions/workflows/unit.yml/badge.svg)](https://github.com/procergs/volto-custom-light-theme/actions/workflows/unit.yml)
 
 ## Features
 
@@ -22,19 +22,19 @@ Create a new Volto project (you can skip this step if you already have one):
 
 ```
 npm install -g yo @plone/generator-volto
-yo @plone/volto my-volto-project --addon volto-demo-tema
+yo @plone/volto my-volto-project --addon volto-custom-light-theme
 cd my-volto-project
 ```
 
-Add `volto-demo-tema` to your package.json:
+Add `volto-custom-light-theme` to your package.json:
 
 ```JSON
 "addons": [
-    "volto-demo-tema"
+    "volto-custom-light-theme"
 ],
 
 "dependencies": {
-    "volto-demo-tema": "*"
+    "volto-custom-light-theme": "*"
 }
 ```
 
@@ -52,24 +52,24 @@ yarn start
 
 ### Volto 18 and later
 
-Add `volto-demo-tema` to your `package.json`:
+Add `volto-custom-light-theme` to your `package.json`:
 
 ```json
 "dependencies": {
-    "volto-demo-tema": "*"
+    "volto-custom-light-theme": "*"
 }
 ```
 
-Add `volto-demo-tema` to your `volto.config.js`:
+Add `volto-custom-light-theme` to your `volto.config.js`:
 
 ```javascript
-const addons = ['volto-demo-tema'];
+const addons = ['volto-custom-light-theme'];
 ```
 
 If this package provides a Volto theme, and you want to activate it, then add the following to your `volto.config.js`:
 
 ```javascript
-const theme = 'volto-demo-tema';
+const theme = 'volto-custom-light-theme';
 ```
 
 ## Test installation

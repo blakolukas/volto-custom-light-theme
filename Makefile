@@ -26,7 +26,7 @@ PLONE_VERSION=6
 DOCKER_IMAGE=plone/server-dev:${PLONE_VERSION}
 DOCKER_IMAGE_ACCEPTANCE=plone/server-acceptance:${PLONE_VERSION}
 
-ADDON_NAME='volto-demo-tema'
+ADDON_NAME='volto-custom-light-theme'
 
 .PHONY: help
 help: ## Show this help

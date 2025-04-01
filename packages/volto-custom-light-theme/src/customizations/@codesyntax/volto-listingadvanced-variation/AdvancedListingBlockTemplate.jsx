@@ -54,8 +54,8 @@ const AdvancedListingBlockTemplate = ({
   const contentGridWidth = oneColumnElement
     ? 12
     : hasImage
-    ? 12 - imageWidth
-    : 12;
+      ? 12 - imageWidth
+      : 12;
   const intl = useIntl();
   const TitleTag = titleTag ? titleTag : 'h3';
   const HeaderTag = headerTag ? headerTag : 'h3';
@@ -99,7 +99,7 @@ const AdvancedListingBlockTemplate = ({
                     {item.Subject.map((tag, index) => (
                       <span key={index} className="tag">
                         {tag}
-                        {index < item.Subject.length - 1 && ", "}
+                        {index < item.Subject.length - 1 && ', '}
                       </span>
                     ))}
                   </p>

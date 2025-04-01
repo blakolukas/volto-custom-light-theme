@@ -10,14 +10,12 @@ const applyConfig = (config) => {
       template: AdvancedListingBlockTemplate,
       schemaEnhancer: advancedSchema,
       schemaEnhancer: ({ schema, FormData, intl }) => {
-        schema.properties.href.selectedItemAttrs.push("Subject");
+        schema.properties.href.selectedItemAttrs.push('Subject');
         return schema;
       },
     },
-    
   ];
 
- 
   return config;
 };
 

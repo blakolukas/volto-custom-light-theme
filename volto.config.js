@@ -1,4 +1,4 @@
-const addons = ['volto-demo-tema'];
+const addons = ['volto-custom-light-theme'];
 const theme = '';
 
 module.exports = {

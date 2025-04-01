@@ -1,5 +1,5 @@
 {
-  "name": "volto-demo-tema",
+  "name": "volto-custom-light-theme",
   "version": "1.0.0-alpha.0",
   "description": "Tema Demonstração",
   "main": "src/index.js",
@@ -11,10 +11,10 @@
     "react"
   ],
   "author": "PROCERGS",
-  "homepage": "https://github.com/procergs/volto-demo-tema#readme",
+  "homepage": "https://github.com/procergs/volto-custom-light-theme#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:procergs/volto-demo-tema.git"
+    "url": "git@github.com:procergs/volto-custom-light-theme.git"
   },
   "publishConfig": {
     "access": "public"
