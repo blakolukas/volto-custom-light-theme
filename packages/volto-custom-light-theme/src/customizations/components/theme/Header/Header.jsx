@@ -2,11 +2,10 @@
 import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 import { Container } from 'semantic-ui-react';
-import MobileNavigation from '@kitconcept/volto-light-theme/components/MobileNavigation/MobileNavigation';
 import { useIntl, defineMessages } from 'react-intl';
 import config from '@plone/volto/registry';
 import cx from 'classnames';
-import IntranetSearchWidget from '@kitconcept/volto-light-theme/components//SearchWidget/IntranetSearchWidget';
+import IntranetSearchWidget from '@kitconcept/volto-light-theme/components/SearchWidget/IntranetSearchWidget';
 import SimboloRS from '../../../../components/SimboloRS/SimboloRS';
 
 import {
@@ -67,7 +66,6 @@ const InternetHeader = ({
             </a>
           </div>
           <Navigation pathname={pathname} />
-          <MobileNavigation pathname={pathname} />
           <div className="search-wrapper navigation-desktop">
             <div className="search">
               <SearchWidget />
