@@ -2,6 +2,7 @@
 import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 import { Container } from 'semantic-ui-react';
+import MobileNavigation from '@kitconcept/volto-light-theme/components/MobileNavigation/MobileNavigation';
 import { useIntl, defineMessages } from 'react-intl';
 import config from '@plone/volto/registry';
 import cx from 'classnames';
@@ -66,6 +67,7 @@ const InternetHeader = ({
             </a>
           </div>
           <Navigation pathname={pathname} />
+          <MobileNavigation pathname={pathname} />
           <div className="search-wrapper navigation-desktop">
             <div className="search">
               <SearchWidget />
