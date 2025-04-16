@@ -122,6 +122,7 @@ class SearchWidget extends Component {
       <form action="/search" onSubmit={this.onSubmit}>
         <div className="s-wrapper">
           <input
+            id="buscageralTextBox"
             className="s-input"
             aria-label={this.props.intl.formatMessage(messages.search)}
             onChange={(e) => this.onChangeText(e)}

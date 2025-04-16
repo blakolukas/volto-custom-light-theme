@@ -1,13 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { UniversalLink } from '@plone/volto/components';
-import SimboloRS from './simbolo_RS.png';
+import SimboloRS from './preto.png';
+import SimboloRSHighContrast from './branco.png';
 
 const SeloGoverno = () => {
+  const [isHighContrast, setIsHighContrast] = useState(false);
+
+  useEffect(() => {
+    const target = document.getElementById('main');
+    if (!target) return;
+
+    const updateClass = () => {
+      setIsHighContrast(target.classList.contains('high-contrast'));
+    };
+
+    // Verifica inicialmente
+    updateClass();
+
+    // Observa mudanças nas classes
+    const observer = new MutationObserver(() => updateClass());
+
+    observer.observe(target, { attributes: true, attributeFilter: ['class'] });
+
+    // Cleanup
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="simboloRS">
       <UniversalLink href="https://www.estado.rs.gov.br" target="_self">
         <img
-          src={SimboloRS}
+          src={isHighContrast ? SimboloRSHighContrast : SimboloRS}
           alt="RS.GOV - Novas façanhas"
           className="simboloRS"
         />

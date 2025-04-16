@@ -2,14 +2,34 @@
   > :nth-child(3) {
     all: unset !important;
   }
+
   > :nth-child(2) {
     a {
       color: unset;
       font-size: unset;
     }
+
     a:hover {
-      color: $green-matriz-link-activated !important;
+      color: $green-matriz-link-activated;
     }
+  }
+}
+
+.btn-scroll {
+  animation-name: appear;
+  animation-timeline: scroll(y);
+  &:hover {
+    border-color: #fff !important;
+    background-color: $green-matriz-link-activated !important;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
   }
 }
 
@@ -54,6 +74,7 @@
     align-self: center;
   }
 }
+
 @media (min-width: 992px) {
   .logo-nav-wrapper,
   .tools-wrapper {
@@ -61,6 +82,7 @@
     align-self: center;
   }
 }
+
 @media (min-width: 1200px) {
   .logo-nav-wrapper,
   .tools-wrapper {

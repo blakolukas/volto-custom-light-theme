@@ -8,6 +8,7 @@ import config from '@plone/volto/registry';
 import cx from 'classnames';
 import IntranetSearchWidget from '@kitconcept/volto-light-theme/components/SearchWidget/IntranetSearchWidget';
 import SimboloRS from '../../../../components/SimboloRS/SimboloRS';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import {
   Anontools,
@@ -19,6 +20,7 @@ import BarraEstado from '../../../../components/BarraEstado/BarraEstado';
 import BarraAcessibilidade from '../../../../components/BarraAcessibilidade/BarraAcessibilidade';
 import SecretariaNome from '../../../../components/SecretariaNome/SecretariaNome';
 import SearchWidget from '../../../../components/SearchWidget/SearchWidget';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
 const messages = defineMessages({
   siteLabel: {
@@ -73,6 +75,27 @@ const InternetHeader = ({
               <SearchWidget />
             </div>
           </div>
+        </div>
+        <div style={{ textAlign: 'right' }}>
+          <a
+            href="#main"
+            class="btn-scroll"
+            style={{
+              cursor: 'pointer',
+              padding: '25px 29px',
+              color: '#fff',
+              backgroundColor: '#607F35',
+              borderRadius: '50px',
+              position: 'fixed',
+              bottom: '45px',
+              right: '10%',
+              zIndex: '9999',
+              boxShadow: '0 2px 5px rgba(0, 0, 0, 0.4)',
+              border: '3px solid transparent',
+            }}
+          >
+            <FontAwesomeIcon icon={faChevronUp} />
+          </a>
         </div>
       </div>
     </>

@@ -1,0 +1,1 @@
+contraste e funcoes da barra de acessibilidade (@blakolukas)
