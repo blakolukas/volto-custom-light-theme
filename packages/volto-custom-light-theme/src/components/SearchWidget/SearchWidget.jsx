@@ -7,6 +7,7 @@ import { defineMessages, injectIntl } from 'react-intl';
 import Icon from '@plone/volto/components/theme/Icon/Icon';
 import zoomSVG from '@plone/volto/icons/zoom.svg';
 import { doesNodeContainClick } from 'semantic-ui-react/dist/commonjs/lib';
+import './SearchWidget.css';
 
 const messages = defineMessages({
   search: {

@@ -3,6 +3,7 @@ import { injectIntl } from 'react-intl';
 import SeloGoverno from '../../../../components/SeloGoverno/SeloGoverno';
 import SiteMapFooter from '../../../../components/SiteMapFooter/SiteMapFooter';
 import RedesSociais from '../../../../components/RedesSociais/RedesSociais';
+import './Footer.css';
 
 const Footer = () => {
   return (

@@ -1,8 +1,9 @@
 #footer {
-  background-color: $green-matriz-link-activated;
+  background-color: var(--green-matriz-link-activated);
 }
 
 .footer-container {
+  max-width: var(--layout-container-width);
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -43,29 +44,10 @@
 .footer-logo {
   height: 80px;
   align-content: center;
-  background-color: $green-vivid-80;
+  background-color: var(--green-vivid-80);
 }
 
 .footer-logo > p {
   color: white;
   font-size: 13px;
-}
-
-@media (min-width: 768px) {
-  .footer-container,
-  .footer-barra-procergs {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .footer-container,
-  .footer-barra-procergs {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .footer-container,
-  .footer-barra-procergs {
-    width: 1170px;
-  }
 }

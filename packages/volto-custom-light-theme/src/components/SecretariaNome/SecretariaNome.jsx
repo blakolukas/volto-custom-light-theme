@@ -1,4 +1,5 @@
 import React from 'react';
+import './SecretariaNome.css';
 
 const SecretariaNome = ({ content, url }) => {
   return (

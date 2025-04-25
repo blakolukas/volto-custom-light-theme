@@ -1,24 +1,8 @@
 @import 'root';
 @import 'variables';
-@import 'components/BarraEstado';
-@import 'components/BarraAcessibilidade';
-@import 'components/FooterSiteMap';
-@import 'components/Footer.scss';
-@import 'components/SimboloRS.scss';
-@import 'components/Header.scss';
-@import 'components/SeloGoverno.scss';
-@import 'components/SearchBar.scss';
-@import 'components/SecretariaNome.scss';
-@import 'components/RedesSociais.scss';
-@import 'components/LocalTeaser.scss';
-@import 'components/GridWithImage.scss';
-@import 'components/GridServicos.scss';
-@import 'components/Sitemap.scss';
-@import 'carrossel.scss';
-@import 'lista_noticias.scss';
-@import 'components/GridProg.scss';
-@import './contraste.scss';
-
+@import './components/carrossel.scss';
+@import './components/lista_noticias.scss';
+@import './components/contraste.scss';
 
 *,
 *:before,
@@ -28,4 +12,25 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+#page-sitemap {
+  max-width: var(--default-container-width);
+  margin-right: auto;
+  margin-left: auto;
+  color: #2f4a0b;
+}
+
+.section-sitemap #page-sitemap ul {
+  list-style-type: square;
+}
+
+.content-area p > a,
+.content-area li > a,
+.content-area .breadcrumb a,
+.breadcrumbs p > a,
+.breadcrumbs li > a,
+.breadcrumbs .breadcrumb a {
+  color: #2f4a0b;
+  text-decoration: none;
 }

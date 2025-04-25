@@ -1,0 +1,29 @@
+.btn-scroll {
+  animation-name: appear;
+  animation-timeline: scroll(y);
+  &:hover {
+    border-color: #fff !important;
+    background-color: var(--green-matriz-link-activated) !important;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+}
+
+.header-wrapper .header .tools-wrapper {
+  flex-direction: row !important;
+}
+
+.header {
+  max-width: var(--layout-container-width) !important;
+}
+
+.header-wrapper .header .logo-nav-wrapper {
+  align-items: center;
+}

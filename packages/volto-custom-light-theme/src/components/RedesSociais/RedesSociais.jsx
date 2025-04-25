@@ -4,6 +4,7 @@ import insta from './insta.svg';
 import flickr from './flickr.svg';
 import x from './x.svg';
 import youtube from './yt.svg';
+import './RedesSociais.css';
 
 const RedesSociais = () => {
   return (

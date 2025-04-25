@@ -7,6 +7,7 @@ import {
   faUniversalAccess,
 } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import './BarraAcessibilidade.css';
 
 const BarraAcessibilidade = () => {
   const [isHighContrast, setIsHighContrast] = useState(() => {

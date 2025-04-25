@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './BarraEstado.css';
 
 const BarraEstado = () => {
   useEffect(() => {

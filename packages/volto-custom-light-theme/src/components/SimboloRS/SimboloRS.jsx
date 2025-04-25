@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { UniversalLink } from '@plone/volto/components';
 import SimboloRS from './preto.png';
 import SimboloRSHighContrast from './branco.png';
+import './SimboloRS.css';
 
 const SeloGoverno = () => {
   const [isHighContrast, setIsHighContrast] = useState(false);

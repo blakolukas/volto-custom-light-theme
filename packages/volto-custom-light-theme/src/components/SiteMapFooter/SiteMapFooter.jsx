@@ -8,6 +8,7 @@ import { Container as SemanticContainer } from 'semantic-ui-react';
 import { Helmet, toBackendLang } from '@plone/volto/helpers';
 import { Link } from 'react-router-dom';
 import config from '@plone/volto/registry';
+import './SiteMapFooter.css';
 
 import { getNavigation } from '@plone/volto/actions';
 
