@@ -3,8 +3,8 @@
 /* Dots */
 .slick-dots {
   position: absolute;
-  z-index: 10; /* Ensure it appears above the slick-list */
-  bottom: 40px; /* Adjust this value to position it correctly */
+  z-index: 10;
+  bottom: 40px;
 }
 
 .slick-dots li {
@@ -38,8 +38,6 @@
   }
 }
 
-/* @kitconcept/volto-carousel-block */
-/* Hides text */
 .grid-teaser-item > a > h3 {
   display: none;
 }
@@ -48,7 +46,6 @@
   display: none;
 }
 
-/* Arrows position */
 .block.carousel .slick-prev::before {
   color: white; /* Set icon color */
   content: '\f104';

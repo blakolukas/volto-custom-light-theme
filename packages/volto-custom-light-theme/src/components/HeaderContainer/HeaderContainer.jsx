@@ -66,7 +66,7 @@ const HeaderContainer = ({
         <div style={{ textAlign: 'right' }}>
           <a
             href="#main"
-            class="btn-scroll"
+            className="btn-scroll"
             style={{
               cursor: 'pointer',
               padding: '25px 29px',
