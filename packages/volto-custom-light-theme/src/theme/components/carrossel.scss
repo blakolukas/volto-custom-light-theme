@@ -4,7 +4,7 @@
 .slick-dots {
   position: absolute;
   z-index: 10;
-  bottom: 40px;
+  bottom: 80px;
 }
 
 .slick-dots li {
@@ -82,6 +82,14 @@
   transform: translateY(-50%);
 }
 
+.block.carousel .grid-image-wrapper {
+  padding-top: 40%;
+}
+
+.block.carousel .slick-slide {
+  padding: 0;
+}
+
 /* @eeacms/volto-block-image-cards */
 /* Hides text */
 .slide-body {
@@ -110,4 +118,76 @@
 .slider-arrow .right-arrow {
   right: 40px;
   left: unset;
+}
+
+@media only screen and (min-width: 1441px) {
+  .ui.container {
+    width: var(--layout-container-width);
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  body:not(.has-toolbar):not(.has-sidebar):not(.has-toolbar-collapsed):not(
+      .has-sidebar-collapsed
+    )
+    .ui.container {
+    width: var(--layout-container-width) !important;
+  }
+}
+
+@media only screen and (min-width: 941px) and (max-width: 1440px) {
+  body:not(.has-toolbar):not(.has-sidebar):not(.has-toolbar-collapsed):not(
+      .has-sidebar-collapsed
+    )
+    .ui.container {
+    width: var(--layout-container-width) !important;
+  }
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1460px) {
+  body.has-toolbar-collapsed:not(.has-sidebar):not(.has-sidebar-collapsed)
+    .ui.container {
+    width: var(--layout-container-width) !important;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 940px) {
+  body:not(.has-toolbar):not(.has-sidebar):not(.has-toolbar-collapsed):not(
+      .has-sidebar-collapsed
+    )
+    .ui.container {
+    width: var(--layout-container-width) !important;
+  }
+}
+
+@media only screen and (min-width: 849px) and (max-width: 1020px) {
+  body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .ui.container {
+    width: var(--layout-container-width) !important;
+  }
+}
+
+@media only screen and (min-width: 1461px) {
+  body.has-toolbar-collapsed:not(.has-sidebar):not(.has-sidebar-collapsed)
+    .ui.container {
+    width: var(--layout-container-width) !important;
+  }
+}
+
+@media only screen and (min-width: 1521px) {
+  body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .ui.container {
+    width: var(--layout-container-width) !important;
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  body.has-toolbar-collapsed:not(.has-sidebar):not(.has-sidebar-collapsed)
+    .ui.container {
+    width: var(--layout-container-width) !important;
+  }
+}
+
+@media only screen and (max-width: 848px) {
+  body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .ui.container {
+    width: var(--layout-container-width) !important;
+  }
 }

@@ -1,7 +1,6 @@
 @import 'root';
 @import 'variables';
 @import './components/carrossel.scss';
-@import './components/lista_noticias.scss';
 @import './components/contraste.scss';
 
 *,
@@ -33,4 +32,8 @@ html {
 .breadcrumbs .breadcrumb a {
   color: #2f4a0b;
   text-decoration: none;
+}
+
+#page-document .blocks-group-wrapper > .block h2.headline {
+  margin-left: unset !important;
 }

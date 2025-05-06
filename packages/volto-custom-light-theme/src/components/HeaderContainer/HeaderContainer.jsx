@@ -8,13 +8,13 @@ import './Header.css';
 import {
   Anontools,
   LanguageSelector,
-  Navigation,
   UniversalLink,
 } from '@plone/volto/components';
 
 import SecretariaNome from '../SecretariaNome/SecretariaNome';
 import SearchWidget from '../SearchWidget/SearchWidget';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import MenuHamburger from '../MenuHamburguer/MenuHamburger';
 
 const HeaderContainer = ({
   pathname,
@@ -48,14 +48,14 @@ const HeaderContainer = ({
             </div>
           )}
         </div>
-        <div className="logo-nav-wrapper">
+        <div className="logo-nav-wrapper" style={{ alignItems: 'center' }}>
           <div className="simbolo">
+            <MenuHamburger />
             <SimboloRS />
             <a className="header-titulo" href="/">
               {siteTitle}
             </a>
           </div>
-          <Navigation pathname={pathname} />
           <MobileNavigation pathname={pathname} />
           <div className="search-wrapper navigation-desktop">
             <div className="search">
