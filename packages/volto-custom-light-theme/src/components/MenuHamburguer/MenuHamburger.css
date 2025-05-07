@@ -1,82 +1,82 @@
 .menu-hamburger-container {
   position: relative;
+}
 
-  .menu-hamburger-toggler {
-    z-index: 101;
-    padding: 0 30px 0 0;
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-size: 24px;
+.menu-hamburger-container .menu-hamburger-toggler {
+  z-index: 101;
+  padding: 0 30px 0 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 24px;
+}
 
-    i {
-      width: 22px;
-      border-radius: 50%;
-      color: #1a7235;
+.menu-hamburger-container .menu-hamburger-toggler i {
+  width: 22px;
+  border-radius: 50%;
+  color: #1a7235;
+}
 
-      &:hover {
-        background-color: #dfeacd;
-      }
-    }
-  }
+.menu-hamburger-container .menu-hamburger-toggler i:hover {
+  background-color: #dfeacd;
+}
 
-  .menu-hamburger-content {
-    position: fixed;
-    z-index: 100;
-    top: 240px;
-    left: 0;
-    display: flex;
-    width: 100vw;
-    flex-direction: column;
-    background: #ededed;
-    transition: padding-left 0.3s ease;
+.menu-hamburger-container .menu-hamburger-content {
+  position: fixed;
+  z-index: 100;
+  top: 240px;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  background: #ededed;
+  transition: padding-left 0.3s ease;
+}
 
-    .menu-hamburger-levels {
-      display: flex;
-      width: 100%;
-      flex-direction: row;
-    }
+.menu-hamburger-container .menu-hamburger-content .menu-hamburger-levels {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
 
-    .menu-hamburger-list {
-      width: 20%;
-      padding: 20px 0px 20px 0px;
-      border-right: 1px solid #cccccc;
-      margin: 0;
-      background: #f9f9f9;
-      list-style: none;
-      overflow-y: auto;
+.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list {
+  width: 20%;
+  padding: 20px 0px 20px 0px;
+  border-right: 1px solid #cccccc;
+  margin: 0;
+  background: #f9f9f9;
+  list-style: none;
+  overflow-y: auto;
+}
 
-      .menu-hamburger-item {
-        cursor: pointer;
+.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item {
+  cursor: pointer;
+}
 
-        a {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 10px 20px 10px 20px;
-          color: black;
-          text-decoration: none;
-        }
+.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+  color: black;
+  text-decoration: none;
+}
 
-        .fa-chevron-right {
-          padding-right: 10px;
-          margin-left: 10px;
-          color: #666;
-          font-size: 12px;
-        }
+.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item .fa-chevron-right {
+  padding-right: 10px;
+  margin-left: 10px;
+  color: #666;
+  font-size: 12px;
+}
 
-        &:hover {
-          background-color: #10336d;
+.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item:hover {
+  background-color: #10336d;
+}
 
-          a {
-            color: white;
+.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item:hover a {
+  color: white;
+}
 
-            .fa-chevron-right {
-              color: white;
-            }
-          }
-        }
-      }
-    }
-  }
+.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item:hover a .fa-chevron-right {
+  color: white;
 }
