@@ -1,6 +1,5 @@
 // SemanticUI-free pre-@plone/components
 import { useSelector } from 'react-redux';
-import MobileNavigation from '@kitconcept/volto-light-theme/components/MobileNavigation/MobileNavigation';
 import SimboloRS from '../SimboloRS/SimboloRS';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Header.css';
@@ -56,7 +55,6 @@ const HeaderContainer = ({
               {siteTitle}
             </a>
           </div>
-          <MobileNavigation pathname={pathname} />
           <div className="search-wrapper navigation-desktop">
             <div className="search">
               <SearchWidget />

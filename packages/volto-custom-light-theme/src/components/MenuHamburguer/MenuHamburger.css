@@ -49,11 +49,18 @@
   overflow-y: auto;
 }
 
-.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item {
+.menu-hamburger-container
+  .menu-hamburger-content
+  .menu-hamburger-list
+  .menu-hamburger-item {
   cursor: pointer;
 }
 
-.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item a {
+.menu-hamburger-container
+  .menu-hamburger-content
+  .menu-hamburger-list
+  .menu-hamburger-item
+  a {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -62,21 +69,37 @@
   text-decoration: none;
 }
 
-.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item .fa-chevron-right {
+.menu-hamburger-container
+  .menu-hamburger-content
+  .menu-hamburger-list
+  .menu-hamburger-item
+  .fa-chevron-right {
   padding-right: 10px;
   margin-left: 10px;
   color: #666;
   font-size: 12px;
 }
 
-.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item:hover {
+.menu-hamburger-container
+  .menu-hamburger-content
+  .menu-hamburger-list
+  .menu-hamburger-item:hover {
   background-color: #1A7235;
 }
 
-.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item:hover a {
+.menu-hamburger-container
+  .menu-hamburger-content
+  .menu-hamburger-list
+  .menu-hamburger-item:hover
+  a {
   color: white;
 }
 
-.menu-hamburger-container .menu-hamburger-content .menu-hamburger-list .menu-hamburger-item:hover a .fa-chevron-right {
+.menu-hamburger-container
+  .menu-hamburger-content
+  .menu-hamburger-list
+  .menu-hamburger-item:hover
+  a
+  .fa-chevron-right {
   color: white;
 }
