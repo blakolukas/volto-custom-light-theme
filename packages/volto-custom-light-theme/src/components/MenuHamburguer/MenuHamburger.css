@@ -14,7 +14,7 @@
 .menu-hamburger-container .menu-hamburger-toggler i {
   width: 22px;
   border-radius: 50%;
-  color: #1a7235;
+  color: var(--green-matriz-link);
 }
 
 .menu-hamburger-container .menu-hamburger-toggler i:hover {
@@ -30,6 +30,7 @@
   width: 100vw;
   flex-direction: column;
   background: #ededed;
+  border-top: 2px solid #FECD3A;
   transition: padding-left 0.3s ease;
 }
 
@@ -84,7 +85,7 @@
   .menu-hamburger-content
   .menu-hamburger-list
   .menu-hamburger-item:hover {
-  background-color: #1A7235;
+  background-color: var(--green-matriz-link);
 }
 
 .menu-hamburger-container
