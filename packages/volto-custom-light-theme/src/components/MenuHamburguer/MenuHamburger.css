@@ -1,5 +1,5 @@
 .menu-hamburger-container {
-  position: relative;
+  position: static;
 }
 
 .menu-hamburger-container .menu-hamburger-toggler {
@@ -22,7 +22,7 @@
 }
 
 .menu-hamburger-container .menu-hamburger-content {
-  position: fixed;
+  position: absolute;
   z-index: 100;
   top: 240px;
   left: 0;
